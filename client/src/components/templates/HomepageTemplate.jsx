@@ -1,6 +1,7 @@
 import styles from "./HomepageTemplate.module.css";
 import { IoIosStar } from "react-icons/io";
 import { FaStarHalfAlt } from "react-icons/fa";
+import NavBar from "../sections/NavBar";
 
 export default function HomepageTemplate() {
   return (
@@ -26,11 +27,12 @@ export default function HomepageTemplate() {
             <p>9 op basis van ruim 900 tevreden klanten</p>
           </div>
           <div className={styles.header__links}>
-            <a href="#reviews">Veelgestelde vragen</a>
-            <a href="#write-a-review">Blogs</a>
+            <a href="#veelgestelde-vragen">Veelgestelde vragen</a>
+            <a href="#blogs">Blogs</a>
           </div>
         </div>
       </header>
+      <NavBar />
     </div>
   );
 }
