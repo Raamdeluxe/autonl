@@ -2,6 +2,7 @@ import styles from "./HomepageTemplate.module.css";
 import { IoIosStar } from "react-icons/io";
 import { FaStarHalfAlt } from "react-icons/fa";
 import NavBar from "../sections/NavBar";
+import HeroSection from "../sections/HeroSection";
 
 export default function HomepageTemplate() {
   return (
@@ -33,6 +34,7 @@ export default function HomepageTemplate() {
         </div>
       </header>
       <NavBar />
+      <HeroSection />
     </div>
   );
 }
