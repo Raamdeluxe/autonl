@@ -1,0 +1,36 @@
+import styles from "./HomepageTemplate.module.css";
+import { IoIosStar } from "react-icons/io";
+import { FaStarHalfAlt } from "react-icons/fa";
+
+export default function HomepageTemplate() {
+  return (
+    <div>
+      <header className={styles.header}>
+        <div className={styles.header__content}>
+          <div className={styles.header__review__content}>
+            <IoIosStar
+              style={{ color: "#FFC400", width: "14px", height: "15px" }}
+            />
+            <IoIosStar
+              style={{ color: "#FFC400", width: "14px", height: "15px" }}
+            />
+            <IoIosStar
+              style={{ color: "#FFC400", width: "14px", height: "15px" }}
+            />
+            <IoIosStar
+              style={{ color: "#FFC400", width: "14px", height: "15px" }}
+            />
+            <FaStarHalfAlt
+              style={{ color: "#FFC400", width: "14px", height: "15px" }}
+            />
+            <p>9 op basis van ruim 900 tevreden klanten</p>
+          </div>
+          <div className={styles.header__links}>
+            <a href="#reviews">Veelgestelde vragen</a>
+            <a href="#write-a-review">Blogs</a>
+          </div>
+        </div>
+      </header>
+    </div>
+  );
+}
