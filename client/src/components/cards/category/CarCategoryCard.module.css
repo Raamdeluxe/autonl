@@ -1,0 +1,15 @@
+.category__card {
+  flex: 0 0 auto;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  top: 0;
+}
+
+.category__card img {
+  object-fit: cover;
+}
+
+.category__card:hover {
+  cursor: pointer;
+  top: -10px;
+}

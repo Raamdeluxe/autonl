@@ -1,0 +1,75 @@
+.car__deal__card {
+  flex: 0 0 auto;
+}
+
+.car__deal__card:hover {
+  cursor: pointer;
+}
+
+.car__deal__card img {
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.car__deal__card h3 {
+  color: #3e4fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16.875px;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.car__deal__card p {
+  margin: 0;
+  color: #0a0f34;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.car__specs {
+  gap: 10px;
+  margin-bottom: 5px;
+  align-items: start;
+  display: flex;
+}
+
+.car__specs span {
+  color: #8c8fa0;
+  font-family: Arial;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.car__label img {
+  margin-bottom: 0;
+  object-fit: cover;
+}
+
+.car__price {
+  gap: 20px;
+  display: flex;
+}
+
+.car__price__before {
+  color: #8c8fa0;
+  font-family: Arial;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+.car__current__price {
+  color: #00cd73;
+  font-family: Arial;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 600;
+}
