@@ -4,6 +4,7 @@ import { FaStarHalfAlt } from "react-icons/fa";
 import NavBar from "../sections/NavBar";
 import HeroSection from "../sections/HeroSection";
 import CarCategoryList from "../cards/category/CarCategoryList";
+import CarDealsList from "../cards/deals/CarDealsList";
 
 export default function HomepageTemplate() {
   return (
@@ -38,6 +39,7 @@ export default function HomepageTemplate() {
       <main className={styles.main}>
         <HeroSection />
         <CarCategoryList />
+        <CarDealsList />
       </main>
     </div>
   );
