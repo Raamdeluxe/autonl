@@ -3,6 +3,7 @@ import { IoIosStar } from "react-icons/io";
 import { FaStarHalfAlt } from "react-icons/fa";
 import NavBar from "../sections/NavBar";
 import HeroSection from "../sections/HeroSection";
+import CarCategoryList from "../cards/category/CarCategoryList";
 
 export default function HomepageTemplate() {
   return (
@@ -34,7 +35,10 @@ export default function HomepageTemplate() {
         </div>
       </header>
       <NavBar />
-      <HeroSection />
+      <main className={styles.main}>
+        <HeroSection />
+        <CarCategoryList />
+      </main>
     </div>
   );
 }
