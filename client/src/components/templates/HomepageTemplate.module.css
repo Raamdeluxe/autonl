@@ -2,6 +2,9 @@
   background-color: #dfe2ee;
   height: 34px;
   width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
 }
 
 .header__content {
