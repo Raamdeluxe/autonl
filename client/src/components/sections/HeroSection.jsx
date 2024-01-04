@@ -33,7 +33,7 @@ export default function HeroSection() {
               </div>
               <div className={styles.hero__content__image}></div>
             </div>
-            <div className={styles.hero__content__aside}>
+            <aside className={styles.hero__content__aside}>
               <div className={styles.hero__content__aside__top}>
                 <img src={kopen} />
                 <p>Ik zoek een occasion</p>
@@ -42,7 +42,7 @@ export default function HeroSection() {
                 <img src={leasen} />
                 <p>Ik wil private leasen</p>
               </div>
-            </div>
+            </aside>
           </div>
           <div className={styles.hero__content__bottom}>
             <div className={styles.hero__usp__content}>
@@ -52,7 +52,9 @@ export default function HeroSection() {
               </div>
               <div className={styles.hero__usp__item}>
                 <img src={check} />
-                <p>Onderdeel van Louwman</p>
+                <p>
+                  Onderdeel van <strong>Louwman</strong>
+                </p>
               </div>
               <div className={styles.hero__usp__item}>
                 <img src={check} />

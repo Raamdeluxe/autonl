@@ -1,0 +1,7 @@
+.category__card {
+  flex: 0 0 auto;
+}
+
+.category__card img {
+  object-fit: cover;
+}
