@@ -91,6 +91,14 @@
   background-color: #ff5826;
   border-radius: 16px;
   padding-bottom: 33px;
+  position: relative;
+  top: 0;
+  transition: ease-in-out 0.3s;
+}
+
+.hero__content__aside__top:hover {
+  top: -10px;
+  cursor: pointer;
 }
 
 .hero__content__aside__top img {
@@ -115,6 +123,14 @@
   background-color: #00cd73;
   border-radius: 16px;
   padding-bottom: 33px;
+  position: relative;
+  top: 0;
+  transition: ease-in-out 0.3s;
+}
+
+.hero__content__aside__bottom:hover {
+  top: -10px;
+  cursor: pointer;
 }
 
 .hero__content__aside__bottom img {

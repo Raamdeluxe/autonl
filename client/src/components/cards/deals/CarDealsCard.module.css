@@ -2,6 +2,10 @@
   flex: 0 0 auto;
 }
 
+.car__deal__card:hover {
+  cursor: pointer;
+}
+
 .car__deal__card img {
   object-fit: cover;
   border-radius: 16px;
