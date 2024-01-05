@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/src/assets/png/suzuki-white.png",
+    "title": "Suzuki Ignis",
+    "subtitle": "1.2 Select",
+    "km": 58.226,
+    "year": 2017,
+    "fuel": "Benzine",
+    "label": "/src/assets/png/c-label.png",
+    "priceBefore": 15.945,
+    "currentPrice": 15.545
+  },
+  {
+    "id": 2,
+    "image": "/src/assets/png/suzuki-red.png",
+    "title": "Suzuki Ignis",
+    "subtitle": "1.2 Select",
+    "km": 49.554,
+    "year": 2018,
+    "fuel": "Benzine",
+    "label": "/src/assets/png/c-label.png",
+    "priceBefore": 16.395,
+    "currentPrice": 15.845
+  },
+  {
+    "id": 3,
+    "image": "/src/assets/png/a-klasse.png",
+    "title": "Mercedes-Benz A-Klasse",
+    "subtitle": "160 Blueeffiency Business Class",
+    "km": 78.204,
+    "year": 2012,
+    "fuel": "Benzine",
+    "label": "/src/assets/png/c-label.png",
+    "priceBefore": 10.225,
+    "currentPrice": 9.951
+  },
+  {
+    "id": 4,
+    "image": "/src/assets/png/b-klasse.png",
+    "title": "Mercedes-Benz B-Klasse",
+    "subtitle": "180 Ambition Limited",
+    "km": 90.698,
+    "year": 2012,
+    "fuel": "Benzine",
+    "label": "/src/assets/png/b-label.png",
+    "priceBefore": 14.911,
+    "currentPrice": 14.451
+  }
+]
